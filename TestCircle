@@ -1,0 +1,31 @@
+public class TestCircle {
+    public static void main(String[] args) {
+
+        Circle c1 = new Circle();
+
+        Circle c2 = new Circle(28);
+
+        Circle c3 = new Circle(7, "yellow");
+
+        Circle c4 = new Circle();
+        c4.setRadius(13);
+        c4.setColor("green");
+
+        System.out.print("The circle c1 has radius of " + c1.getRadius());
+        System.out.print(" and area of " + c1.getArea());
+        System.out.println(" and color of " + c1.getColor());
+        System.out.println(c1.toString());
+        System.out.print("The circle c2 has radius of " + c2.getRadius());
+        System.out.print(" and area of " + c2.getArea());
+        System.out.println(" and color of " + c2.getColor());
+        System.out.println(c2.toString());
+        System.out.print("The circle c3 has radius of " + c3.getRadius()); 
+        System.out.print(" and area of " + c3.getArea());
+        System.out.println(" and color of " + c3.getColor());
+        System.out.println(c3.toString());
+        System.out.print("The circle c4 has radius of " + c4.getRadius());
+        System.out.print(" and area of " + c4.getArea());
+        System.out.println(" and color of " + c4.getColor());
+        System.out.println(c4.toString());
+    }
+}
