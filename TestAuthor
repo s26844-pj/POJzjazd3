@@ -1,0 +1,15 @@
+public class TestAuthor {
+    public static void main(String[] args) {
+
+        Author st = new Author("Mateusz", "Morawiecki", 53);
+
+        Author nd = new Author();
+        nd.setSurname("Kaczynski");
+
+        System.out.print("Author name = " + st.getName() + " surname: " + st.getSurname());
+        System.out.println(", age = " + st.getAge());
+        System.out.print("Author name = " + nd.getName() + " surname: " + nd.getSurname());
+        System.out.println(", age = " + nd.getAge());
+        System.out.println(nd.toString());
+    }
+}
